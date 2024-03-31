@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/cryptoverse/static/css/main.0b8c1dea.css",
-    "main.js": "/cryptoverse/static/js/main.331d6fe8.js",
+    "main.css": "/cryptoverse/static/css/main.75497222.css",
+    "main.js": "/cryptoverse/static/js/main.8943c9b8.js",
     "static/media/nasa.jpg": "/cryptoverse/static/media/nasa.76183d22af78ff37820d.jpg",
     "static/media/earth.jpg": "/cryptoverse/static/media/earth.a37736f6aa4f5359b32c.jpg",
     "static/media/chart.jpg": "/cryptoverse/static/media/chart.80a880f71ef3f9e6e98e.jpg",
     "static/media/nft1.jpg": "/cryptoverse/static/media/nft1.79475c10c64f83928163.jpg",
     "static/media/youtube.png": "/cryptoverse/static/media/youtube.d314ef386558f44fa403.png",
     "index.html": "/cryptoverse/index.html",
-    "main.0b8c1dea.css.map": "/cryptoverse/static/css/main.0b8c1dea.css.map",
-    "main.331d6fe8.js.map": "/cryptoverse/static/js/main.331d6fe8.js.map"
+    "main.75497222.css.map": "/cryptoverse/static/css/main.75497222.css.map",
+    "main.8943c9b8.js.map": "/cryptoverse/static/js/main.8943c9b8.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b8c1dea.css",
-    "static/js/main.331d6fe8.js"
+    "static/css/main.75497222.css",
+    "static/js/main.8943c9b8.js"
   ]
 }
