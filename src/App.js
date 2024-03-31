@@ -9,6 +9,8 @@ import About from './components/About';
 import NFT from './components/NFT';
 import LearningMaterials from './components/LearningMaterials';
 import FAQAccordion from './components/FAQAccordion';
+import Market from './components/Market';
+import Trending from './components/Trending';
 
 function App() {
   const router = createBrowserRouter([
@@ -40,6 +42,7 @@ function App() {
           <Cryptoverse/>
           <LearningMaterials/>
           <NFT/>
+          <FAQAccordion/>
           <Footer/>
         </>
       )
@@ -50,6 +53,18 @@ function App() {
         <>
           <Header/>
           <About/>
+          <FAQAccordion/>
+          <Footer/>
+        </>
+      )
+    },
+    {
+      path:"/cryptoverse/market",
+      element:(
+        <>
+          <Header/>
+          <Market/>
+          <Trending/>
           <FAQAccordion/>
           <Footer/>
         </>
