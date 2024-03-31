@@ -1,24 +1,63 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
+import Home from "./components/Home";
+import Header from './components/Header';
+import Footer from './components/Footer';
+import CoinDetail from './components/CoinDetail';
+import Cryptoverse from './components/Cryptoverse';
+import About from './components/About';
+import NFT from './components/NFT';
+import LearningMaterials from './components/LearningMaterials';
+import FAQAccordion from './components/FAQAccordion';
 
 function App() {
+  const router = createBrowserRouter([
+    {
+      path:"/cryptoverse",
+      element: (
+        <>
+          <Header/>
+          <Home/>
+          <Footer/>
+        </>
+      )
+    },
+    {
+      path:"/coin/:id",
+      element:(
+        <>
+          <Header/>
+          <CoinDetail/>
+          <Footer/>
+        </>
+      )
+    },
+    {
+      path:"/cryptoverse/learn-crypto",
+      element:(
+        <>
+          <Header/>
+          <Cryptoverse/>
+          <LearningMaterials/>
+          <NFT/>
+          <Footer/>
+        </>
+      )
+    },
+    {
+      path:"/cryptoverse/about",
+      element:(
+        <>
+          <Header/>
+          <About/>
+          <FAQAccordion/>
+          <Footer/>
+        </>
+      )
+    }
+  ])
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <RouterProvider router={router}/>
   );
 }
 
