@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cryptoverse/static/css/main.8449e90d.css",
-    "main.js": "/cryptoverse/static/js/main.10c3796b.js",
+    "main.js": "/cryptoverse/static/js/main.aa0f688c.js",
     "static/media/nasa.jpg": "/cryptoverse/static/media/nasa.76183d22af78ff37820d.jpg",
     "static/media/earth.jpg": "/cryptoverse/static/media/earth.a37736f6aa4f5359b32c.jpg",
     "static/media/chart.jpg": "/cryptoverse/static/media/chart.80a880f71ef3f9e6e98e.jpg",
@@ -9,10 +9,10 @@
     "static/media/youtube.png": "/cryptoverse/static/media/youtube.d314ef386558f44fa403.png",
     "index.html": "/cryptoverse/index.html",
     "main.8449e90d.css.map": "/cryptoverse/static/css/main.8449e90d.css.map",
-    "main.10c3796b.js.map": "/cryptoverse/static/js/main.10c3796b.js.map"
+    "main.aa0f688c.js.map": "/cryptoverse/static/js/main.aa0f688c.js.map"
   },
   "entrypoints": [
     "static/css/main.8449e90d.css",
-    "static/js/main.10c3796b.js"
+    "static/js/main.aa0f688c.js"
   ]
 }
