@@ -3,7 +3,6 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from "./components/Home";
 import Header from './components/Header';
 import Footer from './components/Footer';
-import CoinDetail from './components/CoinDetail';
 import Cryptoverse from './components/Cryptoverse';
 import About from './components/About';
 import NFT from './components/NFT';
@@ -20,16 +19,6 @@ function App() {
         <>
           <Header/>
           <Home/>
-          <Footer/>
-        </>
-      )
-    },
-    {
-      path:"/coin/:id",
-      element:(
-        <>
-          <Header/>
-          <CoinDetail/>
           <Footer/>
         </>
       )
